@@ -11,9 +11,11 @@ public class ZinsenClient implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        double kapital = Double.parseDouble(args[0]);
+ /*       double kapital = Double.parseDouble(args[0]);
         double zinssatz = Double.parseDouble(args[1]);
-        int jahre = Integer.parseInt(args[2]);
+        int jahre = Integer.parseInt(args[3]);
+
+
         System.out.println("Berechne Endkapital für die Verzinsung von " + kapital +
                 " über " + jahre + " Jahre mit " + zinssatz + "%");
 // mit GET-Aufruf Endkapital berechnen
@@ -28,5 +30,9 @@ public class ZinsenClient implements CommandLineRunner {
         endkapital = zinsService.berechnePost(params);
         System.out.println("Endkapital: " + endkapital);
         System.out.println();
+
+
+*/
+
     }
 }

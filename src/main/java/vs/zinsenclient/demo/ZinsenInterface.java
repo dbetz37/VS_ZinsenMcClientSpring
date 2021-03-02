@@ -3,6 +3,8 @@ package vs.zinsenclient.demo;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Collection;
 import java.util.Map;
 
 @FeignClient(name="zinsenservice", url="http://localhost:8080/zinsen")
