@@ -17,6 +17,7 @@ public interface BauInterface {
             @RequestParam double kreditbetrag,
             @RequestParam double zinssatz,
             @RequestParam double rueckzahlung);
+
     @PostMapping
     int berechnePost(@RequestBody Map<String,Object> params);
 

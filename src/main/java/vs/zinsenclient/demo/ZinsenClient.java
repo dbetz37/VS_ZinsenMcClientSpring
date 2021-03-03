@@ -1,3 +1,6 @@
+/*
+
+
 package vs.zinsenclient.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +14,7 @@ public class ZinsenClient implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-     /*double kapital = Double.parseDouble(args[0]);
+     double kapital = Double.parseDouble(args[0]);
         double zinssatz = Double.parseDouble(args[1]);
         int jahre = Integer.parseInt(args[3]);
 
@@ -31,8 +34,10 @@ public class ZinsenClient implements CommandLineRunner {
         System.out.println("Endkapital: " + endkapital);
         System.out.println();
 
-*/
+
 
 
     }
 }
+
+ */

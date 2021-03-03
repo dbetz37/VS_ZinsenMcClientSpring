@@ -1,3 +1,4 @@
+/*
 package vs.zinsenclient.demo;
 
 
@@ -14,6 +15,9 @@ public interface ZinsenInterface {
             @RequestParam double kapital,
             @RequestParam double zinssatz,
             @RequestParam int jahre);
+
     @PostMapping
     double berechnePost(@RequestBody Map<String,Object> params);
 }
+
+ */
