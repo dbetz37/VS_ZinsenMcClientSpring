@@ -13,12 +13,12 @@ import java.util.Map;
 public interface BauInterface {
 
     @GetMapping
-    int berechneGet(
+    int berechneMonatGet(
             @RequestParam double kreditbetrag,
             @RequestParam double zinssatz,
             @RequestParam double rueckzahlung);
 
     @PostMapping
-    int berechnePost(@RequestBody Map<String,Object> params);
+    int berechneMonatPost(@RequestBody Map<String,Object> params);
 
 }

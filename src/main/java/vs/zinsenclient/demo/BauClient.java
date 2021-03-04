@@ -28,8 +28,20 @@ public class BauClient implements CommandLineRunner {
                             "mit einer monatlichen Rückzahlung von" + " " + rueckzahlung);
 
 
-        int zeitraum = bauService.berechneGet(kreditbetrag, zinssatz, rueckzahlung);
+        int zeitraum = bauService.berechneMonatGet(kreditbetrag, zinssatz, rueckzahlung);
         System.out.println("Zeitraum in Monaten: " + zeitraum);
+
+    /*
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("kreditbetrag", kreditbetrag);
+        params.put("zinssatz", zinssatz);
+        params.put("rueckzahlung", rueckzahlung);
+        int monate = bauService.berechneMonatPost(params);
+        System.out.println("Monate: " + monate);
+
+     */
+
+
 
 
 
