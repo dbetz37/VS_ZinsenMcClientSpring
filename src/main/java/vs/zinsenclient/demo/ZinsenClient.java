@@ -16,7 +16,7 @@ public class ZinsenClient implements CommandLineRunner {
     public void run(String... args) throws Exception {
      double kapital = Double.parseDouble(args[0]);
         double zinssatz = Double.parseDouble(args[1]);
-        int jahre = Integer.parseInt(args[3]);
+        int jahre = Integer.parseInt(args[2]);
 
 
         System.out.println("Berechne Endkapital für die Verzinsung von " + kapital +

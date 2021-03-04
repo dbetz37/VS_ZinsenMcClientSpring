@@ -19,6 +19,6 @@ public interface BauInterface {
             @RequestParam double rueckzahlung);
 
     @PostMapping
-    int berechneMonatPost(@RequestBody Map<String,Object> params);
+    Collection<Double> berechneMonatPost(@RequestBody Map<String,Object> params);
 
 }
