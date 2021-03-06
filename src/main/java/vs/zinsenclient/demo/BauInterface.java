@@ -18,6 +18,13 @@ public interface BauInterface {
             @RequestParam double zinssatz,
             @RequestParam double rueckzahlung);
 
+    @GetMapping
+    int berechneZinsGet(
+            @RequestParam double kreditbetrag,
+            @RequestParam double zinssatz,
+            @RequestParam double rueckzahlung);
+
+
     @PostMapping
     Collection<Double> berechneMonatPost(@RequestBody Map<String,Object> params);
 
